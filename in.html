@@ -1,111 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Afri Pure Header</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oCurrl Hair Care</title>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-  <style>
-
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-    }
-
-    body{
-      background:#eadada;
-      font-family:'Poppins', sans-serif;
-      padding:15px;
-    }
-
-    /* HEADER CONTAINER */
-    .header{
-      background:white;
-      border-radius:30px;
-      padding:20px 40px;
-
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-    }
-
-    /* LOGO */
-    .logo{
-      font-family:'Cormorant Garamond', serif;
-      font-size:64px;
-      color:#a8782d;
-      font-weight:500;
-    }
-
-    /* NAVIGATION */
-    .nav-links{
-      display:flex;
-      align-items:center;
-      gap:40px;
-    }
-
-    .nav-links a{
-      text-decoration:none;
-      color:#000;
-      font-size:14px;
-      letter-spacing:1px;
-      transition:0.3s;
-    }
-
-    .nav-links a:hover{
-      color:#d8a0a0;
-    }
-
-    /* ACTIVE LINK */
-    .active{
-      color:#e7a8a8 !important;
-    }
-
-    /* CIRCLE BUTTON */
-    .icon-btn{
-      width:38px;
-      height:38px;
-      background:#e7a8a8;
-      border-radius:50%;
-
-      display:flex;
-      justify-content:center;
-      align-items:center;
-
-      color:white;
-      font-size:18px;
-      cursor:pointer;
-    }
-
-  </style>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <header class="header">
+<header class="header">
 
     <div class="logo">
-      afri pure
+        <img src="Images/o currl logo copy.png" alt="oCurrl Logo">
     </div>
 
     <nav class="nav-links">
-      <a href="#" class="active">HOME</a>
-      <a href="#">ABOUT US</a>
-      <a href="#">PRODUCTS</a>
-      <a href="#">GALLERY</a>
-      <a href="#">CONTACT</a>
-
-      <div class="icon-btn">
-        ✿
-      </div>
+        <a href="myHome.html" class="active">HOME</a>
+        <a href="myAboutus.html">ABOUT US</a>
+        <a href="myProducts.html">PRODUCTS</a>
+        <a href="myGallery.html">GALLERY</a>
+        <a href="myContactUs.html">CONTACT</a>
     </nav>
 
-  </header>
+</header>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+    <img src="Images/header 2 image.jpg" alt="oCurrl Hair Care">
+
+    <div class="hero-text">
+        <h1>Love Your Curls.</h1>
+        <p>Natural hair care made for kinky, coily and curly crowns.</p>
+
+        <a href="myProducts.html" class="hero-btn">
+            Shop Collection
+        </a>
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about">
+
+    <h2>About oCurrl</h2>
+
+    <p>
+        oCurrl is a haircare brand designed specifically for curly,
+        coily and kinky hair. We focus on hydration, nourishment,
+        strength and curl definition using natural ingredients such
+        as shea butter, coconut oil and argan oil.
+    </p>
+
+    <a href="myAboutus.html" class="learn-btn">
+        Learn More
+    </a>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section class="products-section">
+
+    <h2>Featured Products</h2>
+
+    <div class="products">
+
+        <div class="product-card">
+
+            <img src="Images/image 4.jpg" alt="Setting Mousse">
+
+            <h3>FOMO Setting Mousse</h3>
+
+            <p>
+                Shea Butter & Coconut Styling Foam
+                for curl definition and moisture.
+            </p>
+
+            <a href="myProducts.html" class="product-btn">
+                Buy Now
+            </a>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="Images/image 2.jpg" alt="Heat Protect Serum">
+
+            <h3>Heat Protect Serum</h3>
+
+            <p>
+                Argan Oil & Vitamin E protection
+                against heat damage.
+            </p>
+
+            <a href="myProducts.html" class="product-btn">
+                Buy Now
+            </a>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="Images/image 6.jpg" alt="Braid Spray">
+
+            <h3>Braid Spray</h3>
+
+            <p>
+                Refreshes and hydrates braids
+                and protective styles.
+            </p>
+
+            <a href="myProducts.html" class="product-btn">
+                Buy Now
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- STOCKIST -->
+
+<section class="stockist">
+
+    <h2>Exclusively Available At</h2>
+
+    <h3>Dis-Chem Stores Nationwide</h3>
+
+    <a href="https://www.dischem.co.za/catalogsearch/result/?q=ocurr" target="_blank">
+        <img src="Images/dischem logo.png" alt="Dis-Chem Logo">
+    </a>
+
+</section>
+
+<footer>
+
+    <p>
+        Copyright &copy; 2026 oCurrrlsa.
+        All rights reserved.
+    </p>
+
+</footer>
 
 </body>
 </html>
-
