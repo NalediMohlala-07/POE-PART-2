@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Afri Pure Header</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background:#eadada;
+      font-family:'Poppins', sans-serif;
+      padding:15px;
+    }
+
+    /* HEADER CONTAINER */
+    .header{
+      background:white;
+      border-radius:30px;
+      padding:20px 40px;
+
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    /* LOGO */
+    .logo{
+      font-family:'Cormorant Garamond', serif;
+      font-size:64px;
+      color:#a8782d;
+      font-weight:500;
+    }
+
+    /* NAVIGATION */
+    .nav-links{
+      display:flex;
+      align-items:center;
+      gap:40px;
+    }
+
+    .nav-links a{
+      text-decoration:none;
+      color:#000;
+      font-size:14px;
+      letter-spacing:1px;
+      transition:0.3s;
+    }
+
+    .nav-links a:hover{
+      color:#d8a0a0;
+    }
+
+    /* ACTIVE LINK */
+    .active{
+      color:#e7a8a8 !important;
+    }
+
+    /* CIRCLE BUTTON */
+    .icon-btn{
+      width:38px;
+      height:38px;
+      background:#e7a8a8;
+      border-radius:50%;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      color:white;
+      font-size:18px;
+      cursor:pointer;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="logo">
+      afri pure
+    </div>
+
+    <nav class="nav-links">
+      <a href="#" class="active">HOME</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">PRODUCTS</a>
+      <a href="#">GALLERY</a>
+      <a href="#">CONTACT</a>
+
+      <div class="icon-btn">
+        ✿
+      </div>
+    </nav>
+
+  </header>
+
+</body>
+</html>
+
